@@ -1,0 +1,37 @@
+{
+  "name": "demoChatScreen",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/viewpager": "^5.0.11",
+    "moment": "^2.29.1",
+    "react": "17.0.2",
+    "react-native": "0.66.3",
+    "react-native-emoji-board": "^1.2.1",
+    "react-native-media-controls": "^2.3.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-vector-icons": "^9.0.0",
+    "react-native-video": "^5.2.0",
+    "react-native-video-controls": "^2.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/runtime": "^7.16.3",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.4.0",
+    "eslint": "^8.3.0",
+    "jest": "^27.4.0",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
